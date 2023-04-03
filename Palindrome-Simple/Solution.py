@@ -11,5 +11,5 @@ lis = []
 for i in range(int(input())):
     lis.append(input())
 
-for _ in check_palindrome(lis):
-    print(_)
+for i in check_palindrome(lis):
+    print(i)
